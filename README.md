@@ -30,6 +30,12 @@ pip install pandas openpyxl
 python app.py
 ```
 
+## Notas
+
+- **Privacidad:** Este script no contiene datos privados ni confidenciales, ya que solo procesa archivos Excel externos. Los archivos con los registros de detenciones **deben mantenerse privados y no se incluyen en este repositorio**. Por eso, este repositorio puede ser público sin riesgo de exponer información sensible.
+
+- **Archivos necesarios:** Para que el script funcione, debes tener los archivos Excel con los registros de detenciones en el mismo directorio donde está el script `app.py`. El script busca archivos que sigan el patrón `detenciones-Llenado_V2-<yyyymm><dd>-<fecha>.xlsx`. Asegúrate de contar con ellos antes de ejecutar el script.
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
